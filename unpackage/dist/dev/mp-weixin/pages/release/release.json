@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "商品买卖",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-dropdown": "/uview-ui/components/u-dropdown/u-dropdown",
+    "u-dropdown-item": "/uview-ui/components/u-dropdown-item/u-dropdown-item",
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-field": "/uview-ui/components/u-field/u-field",
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "u-checkbox-group": "/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-checkbox": "/uview-ui/components/u-checkbox/u-checkbox",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

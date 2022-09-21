@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "fy-dropdown-column": "/components/fy-dropdown-item/fy-dropdown-column"
+  }
+}

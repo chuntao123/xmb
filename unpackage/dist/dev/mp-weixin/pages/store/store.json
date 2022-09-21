@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "测试",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "uni-goods-nav": "/components/uni-goods-nav/components/uni-goods-nav/uni-goods-nav"
+  }
+}

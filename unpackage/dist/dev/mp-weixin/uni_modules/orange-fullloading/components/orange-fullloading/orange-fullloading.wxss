@@ -1,0 +1,17 @@
+
+.fullloading.data-v-7ec34c42{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	text-align: center;
+	z-index: 99999;
+}
+.fullloading image.data-v-7ec34c42{
+	width: 110rpx;
+	height: 110rpx;
+	margin-top: 50%;
+}
+

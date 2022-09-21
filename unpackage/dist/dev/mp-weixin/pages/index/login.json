@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "登录",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-loading": "/uview-ui/components/u-loading/u-loading"
+  }
+}

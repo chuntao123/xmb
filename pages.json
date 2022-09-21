@@ -1,0 +1,197 @@
+{
+	"easycom": {
+	        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	    },
+
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/login",    
+      "style": {
+        "navigationStyle": "custom",
+		"navigationBarTitleText": "登录",
+		"app-plus": {
+		  "bounce": "none"
+		}
+        }
+      
+    },
+	{
+      "path": "pages/index/index",    //主页
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true,
+        "app-plus": {
+          "pullToRefresh": {
+           "support": true,
+           "color": "#28bca7", //小圈圈的颜色
+           "style": "circle" //小圈圈的样式
+                              }
+
+        }
+      }
+    },
+	
+	{
+	  "path": "pages/release/release",       //发布二手
+	  "style": {
+	    "navigationBarTitleText": "商品买卖",
+		"navigationStyle": "custom",
+	    
+	    "app-plus": {
+	      "bounce": "none"
+	    }
+	  }
+	  
+	},
+	{
+	  "path": "pages/release/running",    //发布跑腿
+	  "style": {
+	    "navigationBarTitleText": "跑腿",
+		"navigationStyle": "custom",
+	    
+	    "app-plus": {
+	      "bounce": "none"
+	    }
+	  }
+	  
+	}
+	,
+	{
+	  "path": "pages/information/information",    //会话管理
+	  "style": {
+		  "navigationStyle": "custom",
+	    "navigationBarTitleText": "会话管理",
+	    "enablePullDownRefresh": false,
+	    "app-plus": {
+	      "bounce": "none"
+	    }
+	  }
+	}
+        ,{
+            "path" : "pages/test/test",  //测试界面
+            "style" : {
+				"navigationStyle": "custom",
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": "测试"
+            }
+            
+        },{
+            "path" : "pages/test/test2",  //测试界面
+            "style" : {
+				"navigationStyle": "custom",
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": "测试"
+            }
+            
+        },{
+            "path" : "pages/store/store",  //测试界面
+            "style" : {
+				"navigationStyle": "custom",
+                "enablePullDownRefresh": true,
+                "navigationBarTitleText": "测试"
+            }
+            
+        },
+		{
+		    "path" : "pages/user/user",      //我的页面
+		    "style" : {
+				"navigationStyle": "custom",
+		        "navigationBarTitleText": ""
+		    }
+		    
+		},
+		{
+		    "path" : "pages/release/view/network_class",      //代刷网课
+		    "style" : {
+				"navigationStyle": "custom",
+		        "navigationBarTitleText": ""
+		    }
+		    
+		},
+		
+		{
+		    "path" : "pages/release/view/kpl",      //王者代练
+		    "style" : {
+				"navigationStyle": "custom",
+		        "navigationBarTitleText": ""
+		    }
+		    
+		},
+		
+		{
+		    "path" : "pages/release/view/demand",      //需求发布
+		    "style" : {
+				"navigationStyle": "custom",
+		        "navigationBarTitleText": ""
+		    }
+		    
+		},
+		
+		{
+		    "path" : "pages/release/view/rent",      //出租发布
+		    "style" : {
+				"navigationStyle": "custom",
+		        "navigationBarTitleText": ""
+		    }
+		    
+		},
+		
+		{
+		    "path" : "pages/release/recycling",      //废品回收
+		    "style" : {
+				"navigationStyle": "custom",
+		        "navigationBarTitleText": ""
+		    }
+		    
+		},
+		
+		{
+		    "path" : "pages/user/opinion",      //意见反馈
+		    "style" : {
+				"navigationStyle": "custom",
+		        "navigationBarTitleText": ""
+		    }
+		    
+		},
+		
+		{
+		    "path" : "pages/user/kefu",      //联系客服
+		    "style" : {
+				"navigationStyle": "custom",
+		        "navigationBarTitleText": ""
+		    }
+		    
+		}
+    ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校园奥利给",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "onReachBottomDistance": 200
+  },
+  "tabBar": {
+	  
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/common/img/home.png",
+        "selectedIconPath": "static/common/img/take-home.png"
+      },
+      {
+        "text": "发布",
+        "pagePath": "pages/release/release",
+        "iconPath": "static/common/img/add.png",
+        "selectedIconPath": "static/common/img/add.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/user",
+        "iconPath": "static/common/img/my.png",
+        "selectedIconPath": "static/common/img/take-my.png"
+      }
+    ]
+  }
+}

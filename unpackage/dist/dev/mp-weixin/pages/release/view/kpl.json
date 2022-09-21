@@ -1,0 +1,14 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "orange-fullloading": "/uni_modules/orange-fullloading/components/orange-fullloading/orange-fullloading",
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "u-field": "/uview-ui/components/u-field/u-field",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}
