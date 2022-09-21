@@ -16,7 +16,7 @@
 您可以通过**微信**扫码，查看最佳的演示效果。
 <br>
 <br>
-<img src="https://www.zhenerp.com/d/file/p/2021/08-23/86e97c8e2e2f353e27d603d1dc032b09.jpg" width="220" height="220" >
+<img src="https://github.com/chuntao123/xxxm/blob/main/tp/image-20220921233127164.png" width="220" height="220" >
 
 
 ## 链接
